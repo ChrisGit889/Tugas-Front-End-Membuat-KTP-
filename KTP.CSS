@@ -1,0 +1,139 @@
+/* ini CSS Punya Christhio 535240050 */
+body {
+    background: #212121;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;          
+}
+
+.CONTAINER_KTP {
+    width: 720px;
+    height: 420px;
+    background-image: url(/gambar/Backgroud_KTP.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    padding: 20px;
+    box-shadow: 
+        0 0 25px rgba(255, 255, 255, 0.9), 
+        0 0 50px rgba(8, 214, 217, 0.6),
+        0 0 75px rgba(5, 233, 202, 0.4);   
+}
+
+.KTP_WRAPPER {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    font-size: 50px;
+}
+
+.Judul_KTP {
+    font-family: 'Good Times Rg', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-shadow: 
+        0 0 8px rgba(255,255,255,0.9),
+        0 0 16px rgba(255,255,255,0.7),
+        0 0 32px rgba(255,255,255,0.5);
+}
+
+.MAIN_KTP {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ktp-footer {
+    margin-bottom: 20px;
+}
+.ktp-footer p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.nik_ktp {
+    display: flex;
+    font-family: 'OCR A', monospace;
+    margin-bottom: 10px;
+}
+.nik_ktp .label {
+    width: 100px;
+}
+.nik_ktp .spasi {
+    width: 20px;
+}
+.nik_ktp .label,
+.nik_ktp .spasi,
+.nik_ktp .isi {
+    font-size: 30px;
+}
+
+.data_ktp {
+    font-family: Arial, sans-serif;
+    font-weight: 600;
+}
+
+.ktp-row {
+    display: flex;
+    padding: 3px 0;
+}
+.label {
+    width: 150px;
+}
+.label-goldar {
+    width: 90px;
+}
+.spasi {
+    width: 10px;
+}
+.isi {
+    text-transform: uppercase;
+}
+
+.ktp-row-group {
+    display: flex;
+    gap: 190px;
+}
+
+.ktp-row-sub {
+    position: relative;
+    left: 40px;
+}
+.ktp-row-sub .ktp-row .label {
+    width: 110px;
+}
+
+.img img {
+    width: 160px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.right-ktp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title-pembuatan p {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+}
+
+.ttd-ktp img {
+    margin-top: -35px;
+    width: 150px;
+}
